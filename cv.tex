@@ -1,0 +1,137 @@
+\documentclass{article}
+\usepackage{titlesec}
+\usepackage{titling}
+\usepackage[margin=0.5in]{geometry}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{wrapfig}
+\usepackage{changepage}
+\usepackage{enumitem}
+
+\titleformat{\section}
+{\small\center\bfseries\uppercase}
+{}
+{0em}
+{}[\titlerule]
+
+\titlespacing{\section}
+{0em}{0em}{0.1em}
+
+\titleformat{\subsection}[runin]
+{\bfseries}
+{}
+{0em}
+{}
+
+\titlespacing{\subsection}
+{0em}{0em}{0em}
+
+\titleformat{\subsubsection}[runin]
+{\bfseries}
+{}
+{0em}
+{}
+
+\titlespacing{\subsubsection}
+{0em}{0em}{0em}
+
+\renewcommand{\maketitle}{
+\begin{center}
+{\Large\bfseries
+Honggang Gou\\}
+\vspace{0em}
+E-mail:garypursuit@gmail.com\\
+Github: \url{https://github.com/SchwartzSkipper}
+\end{center}
+}
+
+\begin{document}   
+\title{Curriculum Vitae}
+\author{Honggang Gou}
+
+\maketitle
+
+\section{Education}
+\subsection{Non-degree Program}
+\begin{wrapfigure}[6]{l}{0.075\textwidth}
+    \begin{center}
+        \includegraphics[width=0.075\textwidth]{./pic/tud.png}
+    \end{center}
+\end{wrapfigure}
+\subsubsection{Technische Universit\"at Darmstadt}, Darmstadt, Germany\\
+\emph{Exchange student in Mechanical Engineering}{\hfill9/2015-10/2016\\}
+Fully funded by China Scholarship Council\\
+Overall of GPA: 2.55/1.0 (good)\\
+Core Courses: Robot Learning Integrated Project, Statistical Machine Learning\\
+\subsection{Degree Program}
+\begin{wrapfigure}[7]{L}{0.075\textwidth}
+    \begin{center}
+        \includegraphics[width=0.075\textwidth]{./pic/NUAA.jpg}
+    \end{center}
+\end{wrapfigure}
+\subsubsection{Nanjing University of Aeronautics and Astronautics}
+, Nanjing, PR.China\\
+\emph{B.Eng in Aircraft Manufacturing Engineering}{\hfill9/2012-6/2017\\}
+Thesis: A Robot arm playing badminton simulated in SL-Lab\\
+Overall of GPA: 3.6/5.0 (86/100)\\
+Core Courses: Advanced Mathematics, Theoretical Mechanics, Electrical and Electronic Technology, Mechanical Principle and Design, Control System
+
+\section{Work Experiences}
+% \begin{wrapfigure}[8]{L}{0.1\textwidth}
+%     \begin{center}
+%         \includegraphics[width=0.11\textwidth]{./pic/hrg.png}
+%     \end{center}
+% \end{wrapfigure}
+\subsection{HRG, HIT Robot Group}, Kunshan, Jiangsu, PR.China
+\subsubsection{Algorithm Engineer, ROS(Robot Operating System) Branch} \hfill 7/2017-8/2018
+\begin{itemize}[noitemsep,topsep=1pt]
+\item Github Page: \url{https://github.com/hitrobotgroup}
+\item Promoted the performance and robustness of autonomous guided vehicles (AGV) by modifying or writing ROS navigation stack, specifically the global and local planners.
+\item Integrated and implemented existed open-source Lidar-SLAM to accommodate indoor localization and navigation.
+\item Managed the public github account of ROS developers belonged to our group.  
+\item Participated in several leading fairs for Automation and Robotics as the exhibitor, Auomatica in Munich Germany and CeMAT in Shanghai China, not only demonstrating AGVs in motion but also delivering English presentations to visitors. 
+\item Responsible for certain implementations of AGV projects in the factories and warehouses of clients, such as Harman Kardon(Suzhou) and Innolux Corporation (Shanghai).  
+\end{itemize}
+
+% \section{Research Interests}
+% \begin{itemize}[noitemsep,topsep=1pt]
+% \item General Robotics: Probabilistic Robotics, any projects related to ROS.
+% \item Optimal Control: UAV flight maneuver control, Autonomous Driving or AGV controller.
+% \item Perception: SLAM, vision-based or lidar-based SLAM, visual inertial odometry.
+% \item Recognition: Machine Learning, Deep Learning.
+% \end{itemize}
+
+
+\section{Project Experiences}
+\subsection{Autonomous System Lab, Technische Universit\"at Darmstadt \\}
+\emph{Robot Learning: Integrated Project Part I }\hfill 4/2016-10/2016
+\begin{itemize}[noitemsep,topsep=1pt]
+\item Participated in an Integrated Project of Autonomous System Lab in the Robotics Branch of Computer Science, majorly programming in  C.
+\item By utilizing kalman filters, the dynamic trajectories of a flying shuttlecock and feasible hitting position were predicted. And by implementing the minimum jerk controller by adapting the Transpose Jacobian method, the simulated movement of manipulator was smoothened.
+\item With the help of the Simulation Lab developed by Prof. Stefan Schaal from USC, we completed an autonomous simulated methodology for a robot arm to play badminton in Simulation Lab.
+% \item Excellent Volunteer, Student Affairs Service Center, NUAA\hfill 10/2013
+\end{itemize}
+Supervisor: Boris Belousov and Jan Peters.
+
+\section{Academic Skills}
+\subsection{Programming}
+--- C/C++, Matlab, Julia; Script(Python, Shell); Markup({\LaTeX}, XML); Softwares(ROS, Ubuntu, AutoCAD)
+\subsection{Languages}
+--- English: TOEFL.IBT(99), GRE(317)
+
+\section{Service}
+\subsection{Student Affairs Service Center, NUAA, PR.China\\}
+Volunteer, Director of Service Branch \hfill9/2012-9/2013
+\begin{itemize}[noitemsep,topsep=1pt]
+\item Worked as a volunteer for one year in a students' organization to help freshmen with enrollment and academic affairs.
+\item Participated in the recruitment as the director of service branch. Completed a new version of Service Guide for training the newcomers.   
+\end{itemize}
+
+\section{Grants and Awards}
+\begin{itemize}[noitemsep,topsep=1pt]
+\item 2nd Scholarship, Merit Students, NUAA\hfill AY 2012-2014
+\item China Scholarship Council (CSC) Exchange Student Scholarship, NUAA\hfill 5/2015
+\item TU-Darmstadt Semester Scholarship, Deutscher Akademischer Austausch Dienst(DAAD)\hfill 11/2015
+\item Excellent Volunteer, Student Affairs Service Center, NUAA\hfill 10/2013
+\end{itemize}
+\end{document}
