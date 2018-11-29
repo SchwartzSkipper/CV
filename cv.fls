@@ -90,10 +90,10 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmtt10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr9.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx9.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
+INPUT ./pic/tud.png
+INPUT ./pic/tud.png
+INPUT ./pic/tud.png
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmti10.tfm
-INPUT ./pic/tud.png
-INPUT ./pic/tud.png
-INPUT ./pic/tud.png
 INPUT ./pic/NUAA.jpg
 INPUT ./pic/NUAA.jpg
 INPUT ./pic/NUAA.jpg
